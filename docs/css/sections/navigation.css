@@ -1,0 +1,111 @@
+.navigation {
+  background-color: #38383A;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  .navigation {
+    background-color: #38383A;
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+}
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .navigation a {
+    padding: 0;
+  }
+}
+.navigation a:hover,
+.navigation a.active {
+  color: #ffcc00;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
+  display: none;
+  background-color: #35577d;
+}
+@media (min-width: 992px) {
+  .navigation ul {
+    display: flex;
+    background-color: transparent;
+  }
+}
+.navigation li {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #466a92;
+}
+@media (min-width: 992px) {
+  .navigation li {
+    border-bottom: none;
+    padding: 0;
+  }
+}
+.navigation li.active {
+  color: #ffcc00;
+}
+.navigation__toggle-button {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-top: 23px;
+  padding-bottom: 25px;
+  padding-left: 14px;
+  padding-right: 15px;
+  background-color: #38383A;
+}
+.navigation__toggle-button:before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  width: 24px;
+  height: 22px;
+  background: url('../img/icons/navigation-icon.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.navigation__toggle-button:focus,
+.navigation__toggle-button.active {
+  background-color: #16385f;
+}
+@media (min-width: 992px) {
+  .navigation__toggle-button {
+    display: none;
+  }
+}
+.navigation__toggle-button--active {
+  background-color: #16385f;
+}
+.container--mobile--no-padding {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .container--mobile--no-padding {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 970px;
+  }
+}
+@media (min-width: 1170px) {
+  .container--mobile--no-padding {
+    width: 1170px;
+  }
+}
