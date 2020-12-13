@@ -7,4 +7,4 @@
 * Мобильная навигация
 * Owl carousel
 
-#### [Online demo](https://runarnazmutdinov.github.io/Apollo/)
+#### [Online demo](https://locrun.github.io/Apollo/)
